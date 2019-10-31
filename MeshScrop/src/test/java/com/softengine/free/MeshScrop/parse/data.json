@@ -1,0 +1,1179 @@
+{
+  "DescriptorUI": {
+    "t": "D008114"
+  },
+  "Annotation": {
+    "t": "animal only"
+  },
+  "DescriptorName": {
+    "String": {
+      "t": "Liver Neoplasms, Experimental"
+    }
+  },
+  "TreeNumberList": {
+    "TreeNumber": [
+      {
+        "t": "C04.588.274.623.460"
+      },
+      {
+        "t": "C04.619.540"
+      },
+      {
+        "t": "C06.301.623.460"
+      },
+      {
+        "t": "C06.552.697.580"
+      },
+      {
+        "t": "E05.598.500.496.750"
+      }
+    ]
+  },
+  "_generated": {
+    "EntryTerms": [
+      
+    ],
+    "lowerCasePermutatedEntryTerms": [
+      "experimental liver neoplasm",
+      "liver neoplasm, experimental",
+      "morris hepatoma",
+      "novikoff hepatoma"
+    ],
+    "registryNumber": [
+      
+    ],
+    "relatedRegistryNumberList": [
+      
+    ],
+    "objectType": "descriptor",
+    "RecordName": "Liver Neoplasms, Experimental",
+    "RecordUI": "D008114",
+    "lowerCaseRecordName": "liver neoplasms, experimental",
+    "notAnalyzedAnnotation": "animal only",
+    "PreferredConceptScopeNote": "Experimentally induced tumors of the LIVER.",
+    "notAnalyzedPreferredConceptScopeNote": "experimentally induced tumors of the liver.",
+    "permutatedEntryTerms": [
+      "Experimental Liver Neoplasm",
+      "Liver Neoplasm, Experimental",
+      "Morris Hepatoma",
+      "Novikoff Hepatoma"
+    ],
+    "originalEntryTerms": [
+      "Experimental Hepatoma",
+      "Experimental Hepatomas",
+      "Experimental Liver Neoplasms",
+      "Hepatoma, Experimental",
+      "Hepatoma, Morris",
+      "Hepatoma, Novikoff",
+      "Hepatomas, Experimental",
+      "Liver Neoplasms, Experimental",
+      "Neoplasms, Experimental Liver"
+    ],
+    "lowerCaseOriginalEntryTerms": [
+      "liver neoplasms, experimental",
+      "neoplasms, experimental liver",
+      "experimental liver neoplasms",
+      "hepatoma, morris",
+      "hepatoma, novikoff",
+      "experimental hepatoma",
+      "hepatoma, experimental",
+      "hepatomas, experimental",
+      "experimental hepatomas"
+    ]
+  },
+  "_id": "5da0dd9f235721392da599f3",
+  "DescriptorClass": "1",
+  "DateCreated": {
+    "Year": {
+      "t": "1977"
+    },
+    "Month": {
+      "t": "12"
+    },
+    "Day": {
+      "t": "06"
+    }
+  },
+  "DateRevised": {
+    "Year": {
+      "t": "2004"
+    },
+    "Month": {
+      "t": "07"
+    },
+    "Day": {
+      "t": "07"
+    }
+  },
+  "DateEstablished": {
+    "Year": {
+      "t": "1979"
+    },
+    "Month": {
+      "t": "01"
+    },
+    "Day": {
+      "t": "01"
+    }
+  },
+  "AllowableQualifiersList": {
+    "AllowableQualifier": [
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000175"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "diagnosis"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "DI"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000469"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "parasitology"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "PS"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000276"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "immunology"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "IM"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000382"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "microbiology"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "MI"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000000981"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "diagnostic imaging"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "DG"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000503"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "physiopathology"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "PP"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000556"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "secondary"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "SC"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000201"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "enzymology"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "EN"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000209"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "etiology"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "ET"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000401"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "mortality"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "MO"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000453"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "epidemiology"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "EP"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000097"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "blood"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "BL"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000134"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "cerebrospinal fluid"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "CF"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000139"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "chemically induced"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "CI"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000151"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "congenital"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "CN"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000178"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "diet therapy"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "DH"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000188"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "drug therapy"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "DT"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000628"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "therapy"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "TH"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000737"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "chemistry"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "CH"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000523"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "psychology"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "PX"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000652"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "urine"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "UR"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000821"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "virology"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "VI"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000266"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "history"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "HI"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000098"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "blood supply"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "BS"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000145"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "classification"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "CL"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000150"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "complications"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "CO"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000191"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "economics"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "EC"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000196"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "embryology"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "EM"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000235"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "genetics"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "GE"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000451"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "nursing"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "NU"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000532"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "radiotherapy"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "RT"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000601"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "surgery"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "SU"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000517"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "prevention & control"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "PC"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000473"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "pathology"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "PA"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000648"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "ultrastructure"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "UL"
+        }
+      },
+      {
+        "QualifierReferredTo": {
+          "QualifierUI": {
+            "t": "Q000378"
+          },
+          "QualifierName": {
+            "String": {
+              "t": "metabolism"
+            }
+          }
+        },
+        "Abbreviation": {
+          "t": "ME"
+        }
+      }
+    ]
+  },
+  "HistoryNote": {
+    "t": "85; was HEPATOMA, EXPERIMENTAL 1979-84"
+  },
+  "NLMClassificationNumber": {
+    "t": "QZ 206"
+  },
+  "OnlineNote": {
+    "t": "use LIVER NEOPLASMS, EXPERIMENTAL to search HEPATOMA, EXPERIMENTAL 1979-84"
+  },
+  "PublicMeSHNote": {
+    "t": "85; was HEPATOMA, EXPERIMENTAL 1979-84"
+  },
+  "PreviousIndexingList": {
+    "PreviousIndexing": [
+      {
+        "t": "Hepatoma (1966-1978)"
+      },
+      {
+        "t": "Liver Neoplasms (1966-1978)"
+      },
+      {
+        "t": "Neoplasms, Experimental (1966-1978)"
+      }
+    ]
+  },
+  "ConceptList": {
+    "Concept": [
+      {
+        "PreferredConceptYN": "Y",
+        "ConceptUI": {
+          "t": "M0012655"
+        },
+        "ConceptName": {
+          "String": {
+            "t": "Liver Neoplasms, Experimental"
+          }
+        },
+        "ScopeNote": {
+          "t": "Experimentally induced tumors of the LIVER."
+        },
+        "ConceptRelationList": {
+          "ConceptRelation": [
+            {
+              "RelationName": "NRW",
+              "Concept1UI": {
+                "t": "M0012655"
+              },
+              "Concept2UI": {
+                "t": "M0012653"
+              }
+            },
+            {
+              "RelationName": "NRW",
+              "Concept1UI": {
+                "t": "M0012655"
+              },
+              "Concept2UI": {
+                "t": "M0012654"
+              }
+            },
+            {
+              "RelationName": "NRW",
+              "Concept1UI": {
+                "t": "M0012655"
+              },
+              "Concept2UI": {
+                "t": "M0012656"
+              }
+            }
+          ]
+        },
+        "TermList": {
+          "Term": [
+            {
+              "ConceptPreferredTermYN": "Y",
+              "IsPermutedTermYN": "N",
+              "LexicalTag": "NON",
+              "RecordPreferredTermYN": "Y",
+              "TermUI": {
+                "t": "T024218"
+              },
+              "String": {
+                "t": "Liver Neoplasms, Experimental"
+              },
+              "DateCreated": {
+                "Year": {
+                  "t": "1999"
+                },
+                "Month": {
+                  "t": "01"
+                },
+                "Day": {
+                  "t": "01"
+                }
+              },
+              "EntryVersion": {
+                "t": "LIVER NEOPL EXPER"
+              },
+              "ThesaurusIDlist": {
+                "ThesaurusID": {
+                  "t": "NLM (1979)"
+                }
+              },
+              "_lowerCaseString": {
+                "t": "liver neoplasms, experimental"
+              }
+            },
+            {
+              "ConceptPreferredTermYN": "N",
+              "IsPermutedTermYN": "Y",
+              "LexicalTag": "NON",
+              "RecordPreferredTermYN": "N",
+              "TermUI": {
+                "t": "T024218"
+              },
+              "String": {
+                "t": "Experimental Liver Neoplasm"
+              },
+              "_lowerCaseString": {
+                "t": "experimental liver neoplasm"
+              }
+            },
+            {
+              "ConceptPreferredTermYN": "N",
+              "IsPermutedTermYN": "Y",
+              "LexicalTag": "NON",
+              "RecordPreferredTermYN": "N",
+              "TermUI": {
+                "t": "T024218"
+              },
+              "String": {
+                "t": "Liver Neoplasm, Experimental"
+              },
+              "_lowerCaseString": {
+                "t": "liver neoplasm, experimental"
+              }
+            },
+            {
+              "ConceptPreferredTermYN": "N",
+              "IsPermutedTermYN": "N",
+              "LexicalTag": "NON",
+              "RecordPreferredTermYN": "N",
+              "TermUI": {
+                "t": "T024217"
+              },
+              "String": {
+                "t": "Neoplasms, Experimental Liver"
+              },
+              "DateCreated": {
+                "Year": {
+                  "t": "1990"
+                },
+                "Month": {
+                  "t": "11"
+                },
+                "Day": {
+                  "t": "28"
+                }
+              },
+              "EntryVersion": {
+                "t": "NEOPL EXPER LIVER"
+              },
+              "ThesaurusIDlist": {
+                "ThesaurusID": {
+                  "t": "NLM (1992)"
+                }
+              },
+              "_lowerCaseString": {
+                "t": "neoplasms, experimental liver"
+              }
+            },
+            {
+              "ConceptPreferredTermYN": "N",
+              "IsPermutedTermYN": "N",
+              "LexicalTag": "NON",
+              "RecordPreferredTermYN": "N",
+              "TermUI": {
+                "t": "T024216"
+              },
+              "String": {
+                "t": "Experimental Liver Neoplasms"
+              },
+              "DateCreated": {
+                "Year": {
+                  "t": "1990"
+                },
+                "Month": {
+                  "t": "11"
+                },
+                "Day": {
+                  "t": "28"
+                }
+              },
+              "EntryVersion": {
+                "t": "EXPER LIVER NEOPL"
+              },
+              "ThesaurusIDlist": {
+                "ThesaurusID": {
+                  "t": "NLM (1992)"
+                }
+              },
+              "_lowerCaseString": {
+                "t": "experimental liver neoplasms"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "PreferredConceptYN": "N",
+        "ConceptUI": {
+          "t": "M0012653"
+        },
+        "ConceptName": {
+          "String": {
+            "t": "Hepatoma, Morris"
+          }
+        },
+        "ConceptRelationList": {
+          "ConceptRelation": {
+            "RelationName": "NRW",
+            "Concept1UI": {
+              "t": "M0012655"
+            },
+            "Concept2UI": {
+              "t": "M0012653"
+            }
+          }
+        },
+        "TermList": {
+          "Term": [
+            {
+              "ConceptPreferredTermYN": "Y",
+              "IsPermutedTermYN": "N",
+              "LexicalTag": "EPO",
+              "RecordPreferredTermYN": "N",
+              "TermUI": {
+                "t": "T024214"
+              },
+              "String": {
+                "t": "Hepatoma, Morris"
+              },
+              "DateCreated": {
+                "Year": {
+                  "t": "1977"
+                },
+                "Month": {
+                  "t": "12"
+                },
+                "Day": {
+                  "t": "06"
+                }
+              },
+              "ThesaurusIDlist": {
+                "ThesaurusID": {
+                  "t": "UNK (19XX)"
+                }
+              },
+              "_lowerCaseString": {
+                "t": "hepatoma, morris"
+              }
+            },
+            {
+              "ConceptPreferredTermYN": "N",
+              "IsPermutedTermYN": "Y",
+              "LexicalTag": "EPO",
+              "RecordPreferredTermYN": "N",
+              "TermUI": {
+                "t": "T024214"
+              },
+              "String": {
+                "t": "Morris Hepatoma"
+              },
+              "_lowerCaseString": {
+                "t": "morris hepatoma"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "PreferredConceptYN": "N",
+        "ConceptUI": {
+          "t": "M0012654"
+        },
+        "ConceptName": {
+          "String": {
+            "t": "Hepatoma, Novikoff"
+          }
+        },
+        "ConceptRelationList": {
+          "ConceptRelation": {
+            "RelationName": "NRW",
+            "Concept1UI": {
+              "t": "M0012655"
+            },
+            "Concept2UI": {
+              "t": "M0012654"
+            }
+          }
+        },
+        "TermList": {
+          "Term": [
+            {
+              "ConceptPreferredTermYN": "Y",
+              "IsPermutedTermYN": "N",
+              "LexicalTag": "EPO",
+              "RecordPreferredTermYN": "N",
+              "TermUI": {
+                "t": "T024215"
+              },
+              "String": {
+                "t": "Hepatoma, Novikoff"
+              },
+              "DateCreated": {
+                "Year": {
+                  "t": "1977"
+                },
+                "Month": {
+                  "t": "12"
+                },
+                "Day": {
+                  "t": "06"
+                }
+              },
+              "ThesaurusIDlist": {
+                "ThesaurusID": {
+                  "t": "UNK (19XX)"
+                }
+              },
+              "_lowerCaseString": {
+                "t": "hepatoma, novikoff"
+              }
+            },
+            {
+              "ConceptPreferredTermYN": "N",
+              "IsPermutedTermYN": "Y",
+              "LexicalTag": "EPO",
+              "RecordPreferredTermYN": "N",
+              "TermUI": {
+                "t": "T024215"
+              },
+              "String": {
+                "t": "Novikoff Hepatoma"
+              },
+              "_lowerCaseString": {
+                "t": "novikoff hepatoma"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "PreferredConceptYN": "N",
+        "ConceptUI": {
+          "t": "M0012656"
+        },
+        "ConceptName": {
+          "String": {
+            "t": "Experimental Hepatoma"
+          }
+        },
+        "ConceptRelationList": {
+          "ConceptRelation": {
+            "RelationName": "NRW",
+            "Concept1UI": {
+              "t": "M0012655"
+            },
+            "Concept2UI": {
+              "t": "M0012656"
+            }
+          }
+        },
+        "TermList": {
+          "Term": [
+            {
+              "ConceptPreferredTermYN": "Y",
+              "IsPermutedTermYN": "N",
+              "LexicalTag": "NON",
+              "RecordPreferredTermYN": "N",
+              "TermUI": {
+                "t": "T024219"
+              },
+              "String": {
+                "t": "Experimental Hepatoma"
+              },
+              "DateCreated": {
+                "Year": {
+                  "t": "1990"
+                },
+                "Month": {
+                  "t": "11"
+                },
+                "Day": {
+                  "t": "28"
+                }
+              },
+              "EntryVersion": {
+                "t": "EXPER HEPATOMA"
+              },
+              "ThesaurusIDlist": {
+                "ThesaurusID": {
+                  "t": "NLM (1992)"
+                }
+              },
+              "_lowerCaseString": {
+                "t": "experimental hepatoma"
+              }
+            },
+            {
+              "ConceptPreferredTermYN": "N",
+              "IsPermutedTermYN": "N",
+              "LexicalTag": "NON",
+              "RecordPreferredTermYN": "N",
+              "TermUI": {
+                "t": "T024222"
+              },
+              "String": {
+                "t": "Hepatoma, Experimental"
+              },
+              "DateCreated": {
+                "Year": {
+                  "t": "1984"
+                },
+                "Month": {
+                  "t": "06"
+                },
+                "Day": {
+                  "t": "08"
+                }
+              },
+              "EntryVersion": {
+                "t": "HEPATOMA EXPER"
+              },
+              "ThesaurusIDlist": {
+                "ThesaurusID": {
+                  "t": "UNK (19XX)"
+                }
+              },
+              "_lowerCaseString": {
+                "t": "hepatoma, experimental"
+              }
+            },
+            {
+              "ConceptPreferredTermYN": "N",
+              "IsPermutedTermYN": "N",
+              "LexicalTag": "NON",
+              "RecordPreferredTermYN": "N",
+              "TermUI": {
+                "t": "T024221"
+              },
+              "String": {
+                "t": "Hepatomas, Experimental"
+              },
+              "DateCreated": {
+                "Year": {
+                  "t": "1990"
+                },
+                "Month": {
+                  "t": "11"
+                },
+                "Day": {
+                  "t": "28"
+                }
+              },
+              "EntryVersion": {
+                "t": "HEPATOMAS EXPER"
+              },
+              "ThesaurusIDlist": {
+                "ThesaurusID": {
+                  "t": "NLM (1992)"
+                }
+              },
+              "_lowerCaseString": {
+                "t": "hepatomas, experimental"
+              }
+            },
+            {
+              "ConceptPreferredTermYN": "N",
+              "IsPermutedTermYN": "N",
+              "LexicalTag": "NON",
+              "RecordPreferredTermYN": "N",
+              "TermUI": {
+                "t": "T024220"
+              },
+              "String": {
+                "t": "Experimental Hepatomas"
+              },
+              "DateCreated": {
+                "Year": {
+                  "t": "1990"
+                },
+                "Month": {
+                  "t": "11"
+                },
+                "Day": {
+                  "t": "28"
+                }
+              },
+              "EntryVersion": {
+                "t": "EXPER HEPATOMAS"
+              },
+              "ThesaurusIDlist": {
+                "ThesaurusID": {
+                  "t": "NLM (1992)"
+                }
+              },
+              "_lowerCaseString": {
+                "t": "experimental hepatomas"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
