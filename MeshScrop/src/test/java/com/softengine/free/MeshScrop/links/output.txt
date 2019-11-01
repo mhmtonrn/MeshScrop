@@ -33,3 +33,6 @@
 [D007249-Inflammation] ===> [0.5-D010335-Pathologic Processes] ===> [0.25-D013568-Pathological Conditions, Signs and Symptoms]
 
 
+[D002921-Cicatrix] ===> [0.5-D005355-Fibrosis] ===> [0.25-D010335-Pathologic Processes] ===> [0.125-D013568-Pathological Conditions, Signs and Symptoms]
+
+

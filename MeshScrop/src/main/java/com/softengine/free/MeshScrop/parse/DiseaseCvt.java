@@ -26,7 +26,9 @@ public class DiseaseCvt {
 		List<String> treeList = new ArrayList<>();
 		rootObj.getJSONObject(Disease.TreeNumberList).getJSONArray(Disease.TreeNumber).forEach(item->{
 			String tree = ((JSONObject) item).getString(Disease.t);
-			treeList.add(tree);
+			if (tree.contains("C")) {
+				treeList.add(tree);				
+			}
 		});
 		disease.set_TreeNumber(treeList);
 		

@@ -1,6 +1,7 @@
 package com.softengine.free.MeshScrop.writer;
 
 import java.io.FileOutputStream;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -33,7 +34,7 @@ public class WriteTree {
 
 	public void write(StringBuilder builder, String name) throws Exception {
 		try {
-			FileOutputStream fout = new FileOutputStream(outputPath + "\\"+name);
+			FileOutputStream fout = new FileOutputStream(outputPath + "\\" + name);
 			byte b[] = builder.toString().getBytes();// converting string into byte array
 			fout.write(b);
 			fout.close();
@@ -46,54 +47,60 @@ public class WriteTree {
 
 	public StringBuilder writeTextOutput2(Map<Disease, List<Map<Double, Parent>>> hesapMap) {
 		StringBuilder stringBuilder = new StringBuilder();
-		Map<Disease, List<Map<Double, Parent>>> newHashMap = new HashMap<Disease, List<Map<Double,Parent>>>(hesapMap);
+		Map<Disease, List<Map<Double, Parent>>> newHashMap = new HashMap<Disease, List<Map<Double, Parent>>>(hesapMap);
 		for (Entry<Disease, List<Map<Double, Parent>>> item : hesapMap.entrySet()) {
 			for (Entry<Disease, List<Map<Double, Parent>>> innerItem : newHashMap.entrySet()) {
-				Map<Integer,Parent> a = new HashMap<Integer, Parent>();
-				Map<Integer,Parent> b = new HashMap<Integer, Parent>();
+				List<String> l = new ArrayList<String>();
+				List<String> l1 = new ArrayList<String>();
+				Map<Integer, Parent> a = new HashMap<Integer, Parent>();
+				Map<Integer, Parent> b = new HashMap<Integer, Parent>();
 				double payda1 = 1;
 				double pay = 0;
 				for (Map<Double, Parent> paydaList : item.getValue()) {
 					for (Entry<Double, Parent> paydaDliste : paydaList.entrySet()) {
-						double d = paydaDliste.getKey().doubleValue();
-						payda1 += d;
-						Parent p = paydaDliste.getValue();
-						p.setTemp(d);
-						a.put(paydaDliste.getValue().hashCode(), p);
+						if (!l.contains(paydaDliste.getValue().get_RecordUI())) {
+							double d = paydaDliste.getKey().doubleValue();
+							payda1 += d;
+							Parent p = paydaDliste.getValue();
+							p.setTemp(d);
+							a.put(paydaDliste.getValue().hashCode(), p);
+							l.add(paydaDliste.getValue().get_RecordUI());
+						}
 					}
 				}
 
 				double payda2 = 1;
 				for (Map<Double, Parent> paydaList : innerItem.getValue()) {
 					for (Entry<Double, Parent> paydaDliste : paydaList.entrySet()) {
-						double d = paydaDliste.getKey().doubleValue();
-						payda2 += d;
-						Parent p = paydaDliste.getValue();
-						p.setTemp(d);
-						b.put(paydaDliste.getValue().hashCode(), p);
+						if (!l1.contains(paydaDliste.getValue().get_RecordUI())) {
+							double d = paydaDliste.getKey().doubleValue();
+							payda2 += d;
+							Parent p = paydaDliste.getValue();
+							p.setTemp(d);
+							b.put(paydaDliste.getValue().hashCode(), p);
+							l1.add(paydaDliste.getValue().get_RecordUI());
+						}
 					}
 				}
 				double genelPaydaListe = payda1 + payda2;
-				
+
 				if (item.getKey().get_DescriptorUI().equals(innerItem.getKey().get_DescriptorUI())) {
 					pay = genelPaydaListe;
-				}else {
-					for ( Entry<Integer, Parent> a1 : a.entrySet()) {
-						for ( Entry<Integer, Parent> b1 : b.entrySet()) {
+				} else {
+					for (Entry<Integer, Parent> a1 : a.entrySet()) {
+						for (Entry<Integer, Parent> b1 : b.entrySet()) {
 							if (a1.getValue().get_RecordUI().contentEquals(b1.getValue().get_RecordUI())) {
-								pay+=a1.getValue().getTemp()+b1.getValue().getTemp();
+								pay += a1.getValue().getTemp() + b1.getValue().getTemp();
 								break;
 							}
 						}
-					}					
+					}
 				}
-				
-				
-				
-				
-				
-				
-				stringBuilder.append("[" + item.getKey().get_DescriptorUI() + "-" + item.getKey().get_DescriptorName() + "]/"+"[" + innerItem.getKey().get_DescriptorUI() + "-" + innerItem.getKey().get_DescriptorName()+ "] ==> " + pay + " / " + genelPaydaListe+" = "+(pay/genelPaydaListe)+"\n");
+
+				stringBuilder.append(
+						"[" + item.getKey().get_DescriptorUI() + "-" + item.getKey().get_DescriptorName() + "]/" + "["
+								+ innerItem.getKey().get_DescriptorUI() + "-" + innerItem.getKey().get_DescriptorName()
+								+ "] ==> " + pay + " / " + genelPaydaListe + " = " + (pay / genelPaydaListe) + "\n");
 
 			}
 
