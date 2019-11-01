@@ -1,16 +1,23 @@
-[D008114-Liver Neoplasms, Experimental] ===> [1-Liver Neoplasms] ===> [2-Digestive System Neoplasms] ===> [3-Neoplasms by Site] ===> [4-Neoplasms]
-[D008114-Liver Neoplasms, Experimental] ===> [1-Neoplasms, Experimental] ===> [2-Neoplasms]
-[D008114-Liver Neoplasms, Experimental] ===> [1-Liver Neoplasms] ===> [2-Digestive System Neoplasms] ===> [3-Digestive System Diseases]
-[D008114-Liver Neoplasms, Experimental] ===> [1-Liver Neoplasms] ===> [2-Liver Diseases] ===> [3-Digestive System Diseases]
-[D008114-Liver Neoplasms, Experimental] ===> [1-Neoplasms, Experimental] ===> [2-Disease Models, Animal] ===> [3-Models, Animal] ===> [4-Investigative Techniques]
+[D008114-Liver Neoplasms, Experimental] ===> [0.5-D008113-Liver Neoplasms] ===> [0.25-D004067-Digestive System Neoplasms] ===> [0.125-D009371-Neoplasms by Site] ===> [0.0625-D009369-Neoplasms]
+[D008114-Liver Neoplasms, Experimental] ===> [0.5-D009374-Neoplasms, Experimental] ===> [0.25-D009369-Neoplasms]
+[D008114-Liver Neoplasms, Experimental] ===> [0.5-D008113-Liver Neoplasms] ===> [0.25-D004067-Digestive System Neoplasms] ===> [0.125-D004066-Digestive System Diseases]
+[D008114-Liver Neoplasms, Experimental] ===> [0.5-D008113-Liver Neoplasms] ===> [0.25-D008107-Liver Diseases] ===> [0.125-D004066-Digestive System Diseases]
+[D008114-Liver Neoplasms, Experimental] ===> [0.5-D009374-Neoplasms, Experimental] ===> [0.25-D004195-Disease Models, Animal] ===> [0.125-D023421-Models, Animal] ===> [0.0625-D008919-Investigative Techniques]
 
 
-[D000355-African Horse Sickness] ===> [1-Arbovirus Infections] ===> [2-Virus Diseases]
-[D000355-African Horse Sickness] ===> [1-Reoviridae Infections] ===> [2-RNA Virus Infections] ===> [3-Virus Diseases]
-[D000355-African Horse Sickness] ===> [1-Horse Diseases] ===> [2-Animal Diseases]
+[D000355-African Horse Sickness] ===> [0.5-D001102-Arbovirus Infections] ===> [0.25-D014777-Virus Diseases]
+[D000355-African Horse Sickness] ===> [0.5-D012088-Reoviridae Infections] ===> [0.25-D012327-RNA Virus Infections] ===> [0.125-D014777-Virus Diseases]
+[D000355-African Horse Sickness] ===> [0.5-D006734-Horse Diseases] ===> [0.25-D000820-Animal Diseases]
 
 
-[D018934-Fournier Gangrene] ===> [1-Bacterial Infections] ===> [2-Bacterial Infections and Mycoses]
-[D018934-Fournier Gangrene] ===> [1-Genital Diseases, Male] ===> [2-Male Urogenital Diseases]
+[D018934-Fournier Gangrene] ===> [0.5-D001424-Bacterial Infections] ===> [0.25-D001423-Bacterial Infections and Mycoses]
+[D018934-Fournier Gangrene] ===> [0.5-D005832-Genital Diseases, Male] ===> [0.25-D052801-Male Urogenital Diseases]
+
+
+[D014820-Vitiligo] ===> [0.5-D017496-Hypopigmentation] ===> [0.25-D010859-Pigmentation Disorders] ===> [0.125-D012871-Skin Diseases] ===> [0.0625-D017437-Skin and Connective Tissue Diseases]
+
+
+[D001943-Breast Neoplasms] ===> [0.5-D009371-Neoplasms by Site] ===> [0.25-D009369-Neoplasms]
+[D001943-Breast Neoplasms] ===> [0.5-D001941-Breast Diseases] ===> [0.25-D012871-Skin Diseases] ===> [0.125-D017437-Skin and Connective Tissue Diseases]
 
 

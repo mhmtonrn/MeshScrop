@@ -1,0 +1,35 @@
+[D014820-Vitiligo]/[D014820-Vitiligo] ==> 1.875 / 1.875 = 1.0
+[D014820-Vitiligo]/[D018934-Fournier Gangrene] ==> 0.0 / 2.4375 = 0.0
+[D014820-Vitiligo]/[D000355-African Horse Sickness] ==> 0.0 / 3.3125 = 0.0
+[D014820-Vitiligo]/[D008114-Liver Neoplasms, Experimental] ==> 0.0 / 5.3125 = 0.0
+[D014820-Vitiligo]/[D001943-Breast Neoplasms] ==> 0.5625 / 2.5625 = 0.21951219512195122
+
+
+[D000355-African Horse Sickness]/[D014820-Vitiligo] ==> 0.0 / 3.3125 = 0.0
+[D000355-African Horse Sickness]/[D018934-Fournier Gangrene] ==> 0.0 / 3.875 = 0.0
+[D000355-African Horse Sickness]/[D000355-African Horse Sickness] ==> 4.75 / 4.75 = 1.0
+[D000355-African Horse Sickness]/[D008114-Liver Neoplasms, Experimental] ==> 0.0 / 6.75 = 0.0
+[D000355-African Horse Sickness]/[D001943-Breast Neoplasms] ==> 0.0 / 4.0 = 0.0
+
+
+[D001943-Breast Neoplasms]/[D014820-Vitiligo] ==> 0.5625 / 2.5625 = 0.21951219512195122
+[D001943-Breast Neoplasms]/[D018934-Fournier Gangrene] ==> 0.0 / 3.125 = 0.0
+[D001943-Breast Neoplasms]/[D000355-African Horse Sickness] ==> 0.0 / 4.0 = 0.0
+[D001943-Breast Neoplasms]/[D008114-Liver Neoplasms, Experimental] ==> 0.9375 / 6.0 = 0.15625
+[D001943-Breast Neoplasms]/[D001943-Breast Neoplasms] ==> 3.25 / 3.25 = 1.0
+
+
+[D018934-Fournier Gangrene]/[D014820-Vitiligo] ==> 0.0 / 2.4375 = 0.0
+[D018934-Fournier Gangrene]/[D018934-Fournier Gangrene] ==> 3.0 / 3.0 = 1.0
+[D018934-Fournier Gangrene]/[D000355-African Horse Sickness] ==> 0.0 / 3.875 = 0.0
+[D018934-Fournier Gangrene]/[D008114-Liver Neoplasms, Experimental] ==> 0.0 / 5.875 = 0.0
+[D018934-Fournier Gangrene]/[D001943-Breast Neoplasms] ==> 0.0 / 3.125 = 0.0
+
+
+[D008114-Liver Neoplasms, Experimental]/[D014820-Vitiligo] ==> 0.0 / 5.3125 = 0.0
+[D008114-Liver Neoplasms, Experimental]/[D018934-Fournier Gangrene] ==> 0.0 / 5.875 = 0.0
+[D008114-Liver Neoplasms, Experimental]/[D000355-African Horse Sickness] ==> 0.0 / 6.75 = 0.0
+[D008114-Liver Neoplasms, Experimental]/[D008114-Liver Neoplasms, Experimental] ==> 8.75 / 8.75 = 1.0
+[D008114-Liver Neoplasms, Experimental]/[D001943-Breast Neoplasms] ==> 1.4375 / 6.0 = 0.23958333333333334
+
+

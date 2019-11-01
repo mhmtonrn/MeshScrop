@@ -16,7 +16,7 @@ public class ParseParentBD {
 		this.inputStream = inputStream;
 	}
 	
-	public Map<Integer, Parent> getParentMap() throws Exception {
+	public Map<Double, Parent> getParentMap() throws Exception {
 		try {
 			String context = convertString();
 			return ParentCvt.getParent(context);
