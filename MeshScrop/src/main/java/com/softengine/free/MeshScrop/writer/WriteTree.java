@@ -51,7 +51,7 @@ public class WriteTree {
 			for (Entry<Disease, List<Map<Double, Parent>>> innerItem : newHashMap.entrySet()) {
 				Map<Integer,Parent> a = new HashMap<Integer, Parent>();
 				Map<Integer,Parent> b = new HashMap<Integer, Parent>();
-				double payda1 = 0;
+				double payda1 = 1;
 				double pay = 0;
 				for (Map<Double, Parent> paydaList : item.getValue()) {
 					for (Entry<Double, Parent> paydaDliste : paydaList.entrySet()) {
@@ -63,7 +63,7 @@ public class WriteTree {
 					}
 				}
 
-				double payda2 = 0;
+				double payda2 = 1;
 				for (Map<Double, Parent> paydaList : innerItem.getValue()) {
 					for (Entry<Double, Parent> paydaDliste : paydaList.entrySet()) {
 						double d = paydaDliste.getKey().doubleValue();
