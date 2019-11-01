@@ -17,8 +17,8 @@ public class DiseaseCvt {
 		String descriptionUI =rootObj.getJSONObject(Disease.DescriptorUI).getString(Disease.t);
 		disease.set_DescriptorUI(descriptionUI);
 		
-		String annotation =rootObj.getJSONObject(Disease.Annotation).getString(Disease.t);
-		disease.set_Annotation(annotation);
+//		String annotation =rootObj.getJSONObject(Disease.Annotation).getString(Disease.t);
+//		disease.set_Annotation(annotation);
 		
 		String DescriptorName =rootObj.getJSONObject(Disease.DescriptorName).getJSONObject(Disease.String).getString(Disease.t);
 		disease.set_DescriptorName(DescriptorName);

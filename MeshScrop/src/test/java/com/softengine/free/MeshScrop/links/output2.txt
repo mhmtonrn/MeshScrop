@@ -1,35 +1,99 @@
-[D000355-African Horse Sickness]/[D001943-Breast Neoplasms] ==> 0.0 / 6.0 = 0.0
-[D000355-African Horse Sickness]/[D000355-African Horse Sickness] ==> 6.75 / 6.75 = 1.0
-[D000355-African Horse Sickness]/[D008114-Liver Neoplasms, Experimental] ==> 0.0 / 8.75 = 0.0
-[D000355-African Horse Sickness]/[D014820-Vitiligo] ==> 0.0 / 5.3125 = 0.0
-[D000355-African Horse Sickness]/[D018934-Fournier Gangrene] ==> 0.0 / 5.875 = 0.0
+[D000419-Albuminuria]/[D000419-Albuminuria] ==> 7.6875 / 7.6875 = 1.0
+[D000419-Albuminuria]/[D007249-Inflammation] ==> 0.3125 / 5.59375 = 0.055865921787709494
+[D000419-Albuminuria]/[D014820-Vitiligo] ==> 0.0 / 5.78125 = 0.0
+[D000419-Albuminuria]/[D012878-Skin Neoplasms] ==> 0.0 / 6.34375 = 0.0
+[D000419-Albuminuria]/[D001943-Breast Neoplasms] ==> 0.0 / 6.46875 = 0.0
+[D000419-Albuminuria]/[D015861-Retinal Neovascularization] ==> 0.125 / 6.53125 = 0.019138755980861243
+[D000419-Albuminuria]/[D000505-Alopecia] ==> 0.3125 / 6.53125 = 0.04784688995215311
+[D000419-Albuminuria]/[D000026-Abortion, Habitual] ==> 0.15625 / 5.71875 = 0.0273224043715847
+[D000419-Albuminuria]/[D020925-Hypoxia-Ischemia, Brain] ==> 0.0 / 7.6875 = 0.0
 
 
-[D008114-Liver Neoplasms, Experimental]/[D001943-Breast Neoplasms] ==> 1.4375 / 8.0 = 0.1796875
-[D008114-Liver Neoplasms, Experimental]/[D000355-African Horse Sickness] ==> 0.0 / 8.75 = 0.0
-[D008114-Liver Neoplasms, Experimental]/[D008114-Liver Neoplasms, Experimental] ==> 10.75 / 10.75 = 1.0
-[D008114-Liver Neoplasms, Experimental]/[D014820-Vitiligo] ==> 0.0 / 7.3125 = 0.0
-[D008114-Liver Neoplasms, Experimental]/[D018934-Fournier Gangrene] ==> 0.0 / 7.875 = 0.0
+[D007249-Inflammation]/[D000419-Albuminuria] ==> 0.3125 / 5.59375 = 0.055865921787709494
+[D007249-Inflammation]/[D007249-Inflammation] ==> 3.5 / 3.5 = 1.0
+[D007249-Inflammation]/[D014820-Vitiligo] ==> 0.0 / 3.6875 = 0.0
+[D007249-Inflammation]/[D012878-Skin Neoplasms] ==> 0.0 / 4.25 = 0.0
+[D007249-Inflammation]/[D001943-Breast Neoplasms] ==> 0.0 / 4.375 = 0.0
+[D007249-Inflammation]/[D015861-Retinal Neovascularization] ==> 0.9375 / 4.4375 = 0.2112676056338028
+[D007249-Inflammation]/[D000505-Alopecia] ==> 0.5 / 4.4375 = 0.11267605633802817
+[D007249-Inflammation]/[D000026-Abortion, Habitual] ==> 0.0 / 3.625 = 0.0
+[D007249-Inflammation]/[D020925-Hypoxia-Ischemia, Brain] ==> 0.0 / 5.59375 = 0.0
 
 
-[D018934-Fournier Gangrene]/[D001943-Breast Neoplasms] ==> 0.0 / 5.125 = 0.0
-[D018934-Fournier Gangrene]/[D000355-African Horse Sickness] ==> 0.0 / 5.875 = 0.0
-[D018934-Fournier Gangrene]/[D008114-Liver Neoplasms, Experimental] ==> 0.0 / 7.875 = 0.0
-[D018934-Fournier Gangrene]/[D014820-Vitiligo] ==> 0.0 / 4.4375 = 0.0
-[D018934-Fournier Gangrene]/[D018934-Fournier Gangrene] ==> 5.0 / 5.0 = 1.0
-
-
-[D001943-Breast Neoplasms]/[D001943-Breast Neoplasms] ==> 5.25 / 5.25 = 1.0
-[D001943-Breast Neoplasms]/[D000355-African Horse Sickness] ==> 0.0 / 6.0 = 0.0
-[D001943-Breast Neoplasms]/[D008114-Liver Neoplasms, Experimental] ==> 0.9375 / 8.0 = 0.1171875
-[D001943-Breast Neoplasms]/[D014820-Vitiligo] ==> 0.5625 / 4.5625 = 0.1232876712328767
-[D001943-Breast Neoplasms]/[D018934-Fournier Gangrene] ==> 0.0 / 5.125 = 0.0
-
-
-[D014820-Vitiligo]/[D001943-Breast Neoplasms] ==> 0.5625 / 4.5625 = 0.1232876712328767
-[D014820-Vitiligo]/[D000355-African Horse Sickness] ==> 0.0 / 5.3125 = 0.0
-[D014820-Vitiligo]/[D008114-Liver Neoplasms, Experimental] ==> 0.0 / 7.3125 = 0.0
+[D014820-Vitiligo]/[D000419-Albuminuria] ==> 0.0 / 5.78125 = 0.0
+[D014820-Vitiligo]/[D007249-Inflammation] ==> 0.0 / 3.6875 = 0.0
 [D014820-Vitiligo]/[D014820-Vitiligo] ==> 3.875 / 3.875 = 1.0
-[D014820-Vitiligo]/[D018934-Fournier Gangrene] ==> 0.0 / 4.4375 = 0.0
+[D014820-Vitiligo]/[D012878-Skin Neoplasms] ==> 0.9375 / 4.4375 = 0.2112676056338028
+[D014820-Vitiligo]/[D001943-Breast Neoplasms] ==> 0.5625 / 4.5625 = 0.1232876712328767
+[D014820-Vitiligo]/[D015861-Retinal Neovascularization] ==> 0.0 / 4.625 = 0.0
+[D014820-Vitiligo]/[D000505-Alopecia] ==> 0.375 / 4.625 = 0.08108108108108109
+[D014820-Vitiligo]/[D000026-Abortion, Habitual] ==> 0.0 / 3.8125 = 0.0
+[D014820-Vitiligo]/[D020925-Hypoxia-Ischemia, Brain] ==> 0.0 / 5.78125 = 0.0
+
+
+[D012878-Skin Neoplasms]/[D000419-Albuminuria] ==> 0.0 / 6.34375 = 0.0
+[D012878-Skin Neoplasms]/[D007249-Inflammation] ==> 0.0 / 4.25 = 0.0
+[D012878-Skin Neoplasms]/[D014820-Vitiligo] ==> 0.9375 / 4.4375 = 0.2112676056338028
+[D012878-Skin Neoplasms]/[D012878-Skin Neoplasms] ==> 5.0 / 5.0 = 1.0
+[D012878-Skin Neoplasms]/[D001943-Breast Neoplasms] ==> 2.625 / 5.125 = 0.5121951219512195
+[D012878-Skin Neoplasms]/[D015861-Retinal Neovascularization] ==> 0.0 / 5.1875 = 0.0
+[D012878-Skin Neoplasms]/[D000505-Alopecia] ==> 0.9375 / 5.1875 = 0.18072289156626506
+[D012878-Skin Neoplasms]/[D000026-Abortion, Habitual] ==> 0.0 / 4.375 = 0.0
+[D012878-Skin Neoplasms]/[D020925-Hypoxia-Ischemia, Brain] ==> 0.0 / 6.34375 = 0.0
+
+
+[D001943-Breast Neoplasms]/[D000419-Albuminuria] ==> 0.0 / 6.46875 = 0.0
+[D001943-Breast Neoplasms]/[D007249-Inflammation] ==> 0.0 / 4.375 = 0.0
+[D001943-Breast Neoplasms]/[D014820-Vitiligo] ==> 0.5625 / 4.5625 = 0.1232876712328767
+[D001943-Breast Neoplasms]/[D012878-Skin Neoplasms] ==> 2.625 / 5.125 = 0.5121951219512195
+[D001943-Breast Neoplasms]/[D001943-Breast Neoplasms] ==> 5.25 / 5.25 = 1.0
+[D001943-Breast Neoplasms]/[D015861-Retinal Neovascularization] ==> 0.0 / 5.3125 = 0.0
+[D001943-Breast Neoplasms]/[D000505-Alopecia] ==> 0.5625 / 5.3125 = 0.10588235294117647
+[D001943-Breast Neoplasms]/[D000026-Abortion, Habitual] ==> 0.0 / 4.5 = 0.0
+[D001943-Breast Neoplasms]/[D020925-Hypoxia-Ischemia, Brain] ==> 0.0 / 6.46875 = 0.0
+
+
+[D015861-Retinal Neovascularization]/[D000419-Albuminuria] ==> 0.125 / 6.53125 = 0.019138755980861243
+[D015861-Retinal Neovascularization]/[D007249-Inflammation] ==> 0.9375 / 4.4375 = 0.2112676056338028
+[D015861-Retinal Neovascularization]/[D014820-Vitiligo] ==> 0.0 / 4.625 = 0.0
+[D015861-Retinal Neovascularization]/[D012878-Skin Neoplasms] ==> 0.0 / 5.1875 = 0.0
+[D015861-Retinal Neovascularization]/[D001943-Breast Neoplasms] ==> 0.0 / 5.3125 = 0.0
+[D015861-Retinal Neovascularization]/[D015861-Retinal Neovascularization] ==> 5.375 / 5.375 = 1.0
+[D015861-Retinal Neovascularization]/[D000505-Alopecia] ==> 0.3125 / 5.375 = 0.05813953488372093
+[D015861-Retinal Neovascularization]/[D000026-Abortion, Habitual] ==> 0.0 / 4.5625 = 0.0
+[D015861-Retinal Neovascularization]/[D020925-Hypoxia-Ischemia, Brain] ==> 0.0 / 6.53125 = 0.0
+
+
+[D000505-Alopecia]/[D000419-Albuminuria] ==> 0.3125 / 6.53125 = 0.04784688995215311
+[D000505-Alopecia]/[D007249-Inflammation] ==> 0.5 / 4.4375 = 0.11267605633802817
+[D000505-Alopecia]/[D014820-Vitiligo] ==> 0.375 / 4.625 = 0.08108108108108109
+[D000505-Alopecia]/[D012878-Skin Neoplasms] ==> 0.9375 / 5.1875 = 0.18072289156626506
+[D000505-Alopecia]/[D001943-Breast Neoplasms] ==> 0.5625 / 5.3125 = 0.10588235294117647
+[D000505-Alopecia]/[D015861-Retinal Neovascularization] ==> 0.3125 / 5.375 = 0.05813953488372093
+[D000505-Alopecia]/[D000505-Alopecia] ==> 5.375 / 5.375 = 1.0
+[D000505-Alopecia]/[D000026-Abortion, Habitual] ==> 0.0 / 4.5625 = 0.0
+[D000505-Alopecia]/[D020925-Hypoxia-Ischemia, Brain] ==> 0.0 / 6.53125 = 0.0
+
+
+[D000026-Abortion, Habitual]/[D000419-Albuminuria] ==> 0.15625 / 5.71875 = 0.0273224043715847
+[D000026-Abortion, Habitual]/[D007249-Inflammation] ==> 0.0 / 3.625 = 0.0
+[D000026-Abortion, Habitual]/[D014820-Vitiligo] ==> 0.0 / 3.8125 = 0.0
+[D000026-Abortion, Habitual]/[D012878-Skin Neoplasms] ==> 0.0 / 4.375 = 0.0
+[D000026-Abortion, Habitual]/[D001943-Breast Neoplasms] ==> 0.0 / 4.5 = 0.0
+[D000026-Abortion, Habitual]/[D015861-Retinal Neovascularization] ==> 0.0 / 4.5625 = 0.0
+[D000026-Abortion, Habitual]/[D000505-Alopecia] ==> 0.0 / 4.5625 = 0.0
+[D000026-Abortion, Habitual]/[D000026-Abortion, Habitual] ==> 3.75 / 3.75 = 1.0
+[D000026-Abortion, Habitual]/[D020925-Hypoxia-Ischemia, Brain] ==> 0.0 / 5.71875 = 0.0
+
+
+[D020925-Hypoxia-Ischemia, Brain]/[D000419-Albuminuria] ==> 0.0 / 7.6875 = 0.0
+[D020925-Hypoxia-Ischemia, Brain]/[D007249-Inflammation] ==> 0.0 / 5.59375 = 0.0
+[D020925-Hypoxia-Ischemia, Brain]/[D014820-Vitiligo] ==> 0.0 / 5.78125 = 0.0
+[D020925-Hypoxia-Ischemia, Brain]/[D012878-Skin Neoplasms] ==> 0.0 / 6.34375 = 0.0
+[D020925-Hypoxia-Ischemia, Brain]/[D001943-Breast Neoplasms] ==> 0.0 / 6.46875 = 0.0
+[D020925-Hypoxia-Ischemia, Brain]/[D015861-Retinal Neovascularization] ==> 0.0 / 6.53125 = 0.0
+[D020925-Hypoxia-Ischemia, Brain]/[D000505-Alopecia] ==> 0.0 / 6.53125 = 0.0
+[D020925-Hypoxia-Ischemia, Brain]/[D000026-Abortion, Habitual] ==> 0.0 / 5.71875 = 0.0
+[D020925-Hypoxia-Ischemia, Brain]/[D020925-Hypoxia-Ischemia, Brain] ==> 7.6875 / 7.6875 = 1.0
 
 
