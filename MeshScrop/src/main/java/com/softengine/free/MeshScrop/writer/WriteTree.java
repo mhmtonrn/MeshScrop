@@ -1,6 +1,7 @@
 package com.softengine.free.MeshScrop.writer;
 
 import java.io.FileOutputStream;
+import java.util.AbstractMap;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -130,6 +131,9 @@ public class WriteTree {
 				if (entry.getKey()<=paydaDliste.getKey()) {
 					cikartilacakEntry = entry;
 					break;
+				}else {
+					Map.Entry<Double,Parent> ret = new AbstractMap.SimpleEntry<Double,Parent>(paydaDliste.getKey(),null);
+					return ret;
 				}
 			}
 		}
