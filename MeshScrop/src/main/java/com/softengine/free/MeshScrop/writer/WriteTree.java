@@ -50,21 +50,28 @@ public class WriteTree {
 		Map<Disease, List<Map<Double, Parent>>> newHashMap = new HashMap<Disease, List<Map<Double, Parent>>>(hesapMap);
 		for (Entry<Disease, List<Map<Double, Parent>>> item : hesapMap.entrySet()) {
 			for (Entry<Disease, List<Map<Double, Parent>>> innerItem : newHashMap.entrySet()) {
-				List<String> l = new ArrayList<String>();
-				List<String> l1 = new ArrayList<String>();
+				List<Entry<Double, Parent>> l = new ArrayList<Entry<Double, Parent>>();
+				List<Entry<Double, Parent>> l1 = new ArrayList<Entry<Double, Parent>>();
 				Map<Integer, Parent> a = new HashMap<Integer, Parent>();
 				Map<Integer, Parent> b = new HashMap<Integer, Parent>();
 				double payda1 = 1;
 				double pay = 0;
 				for (Map<Double, Parent> paydaList : item.getValue()) {
 					for (Entry<Double, Parent> paydaDliste : paydaList.entrySet()) {
-						if (!l.contains(paydaDliste.getValue().get_RecordUI())) {
+						Entry<Double, Parent> c = listedenCikar(l, paydaDliste);
+						double eksipauda = 0;
+						l.remove(c);
+						if (c != null) {
+							eksipauda = c.getKey();
+						}
+						if (!l.contains(paydaDliste)) {
 							double d = paydaDliste.getKey().doubleValue();
 							payda1 += d;
+							payda1 -= eksipauda;
 							Parent p = paydaDliste.getValue();
 							p.setTemp(d);
 							a.put(paydaDliste.getValue().hashCode(), p);
-							l.add(paydaDliste.getValue().get_RecordUI());
+							l.add(paydaDliste);
 						}
 					}
 				}
@@ -72,13 +79,20 @@ public class WriteTree {
 				double payda2 = 1;
 				for (Map<Double, Parent> paydaList : innerItem.getValue()) {
 					for (Entry<Double, Parent> paydaDliste : paydaList.entrySet()) {
-						if (!l1.contains(paydaDliste.getValue().get_RecordUI())) {
+						Entry<Double, Parent> c = listedenCikar(l1, paydaDliste);
+						double eksipauda = 0;
+						l1.remove(c);
+						if (c != null) {
+							eksipauda = c.getKey();
+						}
+						if (!l1.contains(paydaDliste)) {
 							double d = paydaDliste.getKey().doubleValue();
 							payda2 += d;
+							payda2 -= eksipauda;
 							Parent p = paydaDliste.getValue();
 							p.setTemp(d);
 							b.put(paydaDliste.getValue().hashCode(), p);
-							l1.add(paydaDliste.getValue().get_RecordUI());
+							l1.add(paydaDliste);
 						}
 					}
 				}
@@ -107,6 +121,19 @@ public class WriteTree {
 			stringBuilder.append("\n\n");
 		}
 		return stringBuilder;
+	}
+
+	private Entry<Double, Parent> listedenCikar(List<Entry<Double, Parent>> l, Entry<Double, Parent> paydaDliste) {
+		Entry<Double, Parent> cikartilacakEntry = null;
+		for (Entry<Double, Parent> entry : l) {
+			if (entry.getValue().get_RecordUI().equals(paydaDliste.getValue().get_RecordUI())) {
+				if (entry.getKey()<=paydaDliste.getKey()) {
+					cikartilacakEntry = entry;
+					break;
+				}
+			}
+		}
+		return cikartilacakEntry;
 	}
 
 }

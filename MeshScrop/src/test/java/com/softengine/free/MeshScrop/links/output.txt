@@ -1,38 +1,6 @@
-[D014820-Vitiligo] ===> [0.5-D017496-Hypopigmentation] ===> [0.25-D010859-Pigmentation Disorders] ===> [0.125-D012871-Skin Diseases] ===> [0.0625-D017437-Skin and Connective Tissue Diseases]
-
-
-[D001943-Breast Neoplasms] ===> [0.5-D009371-Neoplasms by Site] ===> [0.25-D009369-Neoplasms]
-[D001943-Breast Neoplasms] ===> [0.5-D001941-Breast Diseases] ===> [0.25-D012871-Skin Diseases] ===> [0.125-D017437-Skin and Connective Tissue Diseases]
-
-
-[D000505-Alopecia] ===> [0.5-D007039-Hypotrichosis] ===> [0.25-D006201-Hair Diseases] ===> [0.125-D012871-Skin Diseases] ===> [0.0625-D017437-Skin and Connective Tissue Diseases]
-[D000505-Alopecia] ===> [0.5-D020763-Pathological Conditions, Anatomical] ===> [0.25-D013568-Pathological Conditions, Signs and Symptoms]
-
-
-[D000419-Albuminuria] ===> [0.5-D011507-Proteinuria] ===> [0.25-D014555-Urination Disorders] ===> [0.125-D014570-Urologic Diseases] ===> [0.0625-D052801-Male Urogenital Diseases]
-[D000419-Albuminuria] ===> [0.5-D011507-Proteinuria] ===> [0.25-D014555-Urination Disorders] ===> [0.125-D014570-Urologic Diseases] ===> [0.0625-D052776-Female Urogenital Diseases] ===> [0.03125-D005261-Female Urogenital Diseases and Pregnancy Complications]
-[D000419-Albuminuria] ===> [0.5-D011507-Proteinuria] ===> [0.25-D020924-Urological Manifestations] ===> [0.125-D012816-Signs and Symptoms] ===> [0.0625-D013568-Pathological Conditions, Signs and Symptoms]
-
-
-[D012878-Skin Neoplasms] ===> [0.5-D009371-Neoplasms by Site] ===> [0.25-D009369-Neoplasms]
-[D012878-Skin Neoplasms] ===> [0.5-D012871-Skin Diseases] ===> [0.25-D017437-Skin and Connective Tissue Diseases]
-
-
-[D015861-Retinal Neovascularization] ===> [0.5-D012164-Retinal Diseases] ===> [0.25-D005128-Eye Diseases]
-[D015861-Retinal Neovascularization] ===> [0.5-D009389-Neovascularization, Pathologic] ===> [0.25-D008679-Metaplasia] ===> [0.125-D010335-Pathologic Processes] ===> [0.0625-D013568-Pathological Conditions, Signs and Symptoms]
-
-
-[D000026-Abortion, Habitual] ===> [0.5-D000022-Abortion, Spontaneous] ===> [0.25-D011248-Pregnancy Complications] ===> [0.125-D005261-Female Urogenital Diseases and Pregnancy Complications]
-
-
-[D020925-Hypoxia-Ischemia, Brain] ===> [0.5-D002545-Brain Ischemia] ===> [0.25-D002561-Cerebrovascular Disorders] ===> [0.125-D001927-Brain Diseases] ===> [0.0625-D002493-Central Nervous System Diseases] ===> [0.03125-D009422-Nervous System Diseases]
-[D020925-Hypoxia-Ischemia, Brain] ===> [0.5-D002534-Hypoxia, Brain] ===> [0.25-D001927-Brain Diseases] ===> [0.125-D002493-Central Nervous System Diseases] ===> [0.0625-D009422-Nervous System Diseases]
-[D020925-Hypoxia-Ischemia, Brain] ===> [0.5-D002545-Brain Ischemia] ===> [0.25-D002561-Cerebrovascular Disorders] ===> [0.125-D014652-Vascular Diseases] ===> [0.0625-D002318-Cardiovascular Diseases]
-
-
-[D007249-Inflammation] ===> [0.5-D010335-Pathologic Processes] ===> [0.25-D013568-Pathological Conditions, Signs and Symptoms]
-
-
-[D002921-Cicatrix] ===> [0.5-D005355-Fibrosis] ===> [0.25-D010335-Pathologic Processes] ===> [0.125-D013568-Pathological Conditions, Signs and Symptoms]
+[D000163-Acquired Immunodeficiency Syndrome] ===> [0.5-D015658-HIV Infections] ===> [0.25-D016180-Lentivirus Infections] ===> [0.125-D012192-Retroviridae Infections] ===> [0.0625-D012327-RNA Virus Infections] ===> [0.03125-D014777-Virus Diseases]
+[D000163-Acquired Immunodeficiency Syndrome] ===> [0.5-D015658-HIV Infections] ===> [0.25-D015229-Sexually Transmitted Diseases, Viral] ===> [0.125-D012749-Sexually Transmitted Diseases] ===> [0.0625-D014777-Virus Diseases]
+[D000163-Acquired Immunodeficiency Syndrome] ===> [0.5-D012897-Slow Virus Diseases] ===> [0.25-D014777-Virus Diseases]
+[D000163-Acquired Immunodeficiency Syndrome] ===> [0.5-D015658-HIV Infections] ===> [0.25-D007153-Immunologic Deficiency Syndromes] ===> [0.125-D007154-Immune System Diseases]
 
 
